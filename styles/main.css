@@ -1,0 +1,94 @@
+/* Allgemeines Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: #f4f4f4;
+}
+
+/* Container für Login */
+.container {
+    margin: 10% auto;
+    width: 80%;
+    max-width: 400px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Eingabefelder & Buttons */
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+button {
+    background: #28a745;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #218838;
+}
+
+/* Navigation */
+nav a {
+    margin: 10px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* To-Do Liste */
+#todo-list {
+    list-style: none;
+    padding: 0;
+}
+
+#todo-list li {
+    background: white;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Rangliste */
+ol {
+    padding: 0;
+}
+
+ol li {
+    background: white;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+/* Tablet (max. 768px) */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}
+
+/* Mobile (max. 480px) */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    input, button {
+        font-size: 14px;
+    }
+}
